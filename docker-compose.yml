@@ -1,0 +1,25 @@
+version: '3.8'
+
+name: text2sql
+services: 
+  python:
+    container_name: text2sql
+    # image: python:3.11-slim
+    image: text2sql:latest
+
+    ports:
+      - "9030:9030"
+      - "8000:8000"
+      - "5173:5173"
+      - "6275:6274"
+      - "6277:6277"
+
+    volumes:
+      - ./:/app
+      
+    restart: always 
+    working_dir: /app
+    command: tail -f /dev/null
+    
+volumes:
+  text2sql:
