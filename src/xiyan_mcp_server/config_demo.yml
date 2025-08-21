@@ -9,8 +9,8 @@ model_small:
   url: "https://api-inference.modelscope.cn/v1"
 
 database:
-  host: "10.0.13.10"
-  port: 9030
-  user: "root"
-  password: "Cetc@123"
-  database: "sjfx_dws"
+  host: ""
+  port: 
+  user: ""
+  password: ""
+  database: ""
