@@ -5,7 +5,7 @@ services:
   python:
     container_name: text2sql
     # image: python:3.11-slim
-    image: text2sql:latest
+    image: david687/text2sql:latest
 
     ports:
       - "9030:9030"
