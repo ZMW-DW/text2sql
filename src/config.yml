@@ -1,6 +1,6 @@
 model:
   name: "XGenerationLab/XiYanSQL-QwenCoder-32B-2504"
-  key: "ms-b052e4ed-4183-4027-8574-9b8f6fc9ad56"
+  key: ""
   url: "https://api-inference.modelscope.cn/v1"
 
 database:
