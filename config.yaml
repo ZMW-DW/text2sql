@@ -1,0 +1,19 @@
+DB:
+  dialect: "mysql" #["mysql", "postgresql", "sqlite", "oracle", "dm"]
+  user_name: "root" 
+  db_pwd: 'root'
+  db_host: "10.0.13.12"
+  port: 3306
+  db_name: 'zyzx1'
+
+# DB:
+#   dialect: "mysql" #["mysql", "postgresql", "sqlite", "oracle", "dm"]
+#   user_name: "root" 
+#   db_pwd: 'Cetc307Grand_p0ss'
+#   db_host: "10.192.32.202"
+#   port: 3306
+#   db_name: 'lm_deploy'
+
+
+  
+    
